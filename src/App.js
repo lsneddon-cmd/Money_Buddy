@@ -1,12 +1,15 @@
 import "./App.css";
 import SalaryCalculator from "./Components/SalaryCalculator/SalaryCalculator";
+import MainMenu from './Components/MainMenu/MainMenu';
+import { Grid } from '@material-ui/core';
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>Money Buddy</h1>
+    <Grid className="App">
+      <MainMenu />
       <SalaryCalculator />
-    </div>
+    </Grid>
   );
 }
 
